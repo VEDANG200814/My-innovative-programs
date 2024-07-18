@@ -132,8 +132,10 @@ public class Handcricket {
                 while(w1!=0)
                 {
                     ba=sc.nextInt();
-                    if(ba>6||ba<0)
-                    continue;
+                    if(ba>6||ba<0){
+                        System.out.println("Enter the runs between 1 to 6");
+                        continue;
+                    }
                     bo=(int)(Math.random()*(6-0+1));
                     System.out.println(bo);
                     if(ba==bo)
@@ -152,8 +154,10 @@ public class Handcricket {
                 while(w1!=0)
                 {
                     bo=sc.nextInt();
-                    if(bo>6||bo<0)
-                    continue;
+                    if(bo>6||bo<0){
+                        System.out.println("Enter bowls between 1 to 6");
+                        continue;
+                    }
                     ba=(int)(Math.random()*(6-0+1));
                     System.out.println(ba);
                     if(ba==bo)
@@ -184,8 +188,10 @@ public class Handcricket {
                 while(w1!=0)
                 {
                     bo=sc.nextInt();
-                    if(bo>6||bo<0)
-                    continue;
+                    if(bo>6||bo<0){
+                        System.out.println("Enter bowls between 1 to 6");
+                        continue;
+                    }
                     ba=(int)(Math.random()*(6-0+1));
                     System.out.println(ba);
                     if(ba==bo)
@@ -204,8 +210,10 @@ public class Handcricket {
                 while(w1!=0)
                 {
                     ba=sc.nextInt();
-                    if(ba>6||ba<0)
-                    continue;
+                    if(ba>6||ba<0){
+                        System.out.println("Enter the runs between 1 to 6");
+                        continue;
+                    }
                     bo=(int)(Math.random()*(6-0+1));
                     System.out.println(bo);
                     if(ba==bo)
@@ -244,8 +252,10 @@ public class Handcricket {
                 while(w1!=0)
                 {
                     bo=sc.nextInt();
-                    if(bo>6||bo<0)
-                    continue;
+                    if(bo>6||bo<0){
+                        System.out.println("Enter bowls between 1 to 6");
+                        continue;
+                    }
                     ba=(int)(Math.random()*(6-0+1));
                     System.out.println(ba);
                     if(ba==bo)
@@ -264,8 +274,10 @@ public class Handcricket {
                 while(w1!=0)
                 {
                     ba=sc.nextInt();
-                    if(ba>6||ba<0)
-                    continue;
+                    if(ba>6||ba<0){
+                        System.out.println("Enter the runs between 1 to 6");
+                        continue;
+                    }
                     bo=(int)(Math.random()*(6-0+1));
                     System.out.println(bo);
                     if(ba==bo)
@@ -297,8 +309,10 @@ public class Handcricket {
                 while(w1!=0)
                 {
                     ba=sc.nextInt();
-                    if(ba>6||ba<0)
-                    continue;
+                    if(ba>6||ba<0){
+                        System.out.println("Enter the runs between 1 to 6");
+                        continue;
+                    }
                     bo=(int)(Math.random()*(6-0+1));
                     System.out.println(bo);
                     if(ba==bo)
@@ -317,8 +331,10 @@ public class Handcricket {
                 while(w1!=0)
                 {
                     bo=sc.nextInt();
-                    if(bo>6||bo<0)
-                    continue;
+                    if(bo>6||bo<0){
+                        System.out.println("Enter bowls between 1 to 6");
+                        continue;
+                    }
                     ba=(int)(Math.random()*(6-0+1));
                     System.out.println(ba);
                     if(ba==bo)
