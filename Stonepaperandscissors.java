@@ -11,16 +11,18 @@ public class Stonepaperandscissors
         System.out.println("**Enter\'sc\'for scissors");
         System.out.println("**Enter\'pa\'for paper");
         System.out.println("**Enter\'p\'to see the no. of points");
-        for(int i=1;i<=p;i++)
+        while(true)
         {
+            if(cc==p||c==p)
+            break;
             ch=sc.next();
             int chc=(int)(Math.random()*(2-0+1));
-            if(ch.equals("s")&&chc==2)
+            if(ch.equals("s")&&chc==1)
             {
                 cc++;
                 System.out.println("pa");
             }
-            else if(ch.equals("pa")&&chc==1)
+            else if(ch.equals("pa")&&chc==2)
             {
                cc++;
                System.out.println("sc");
@@ -30,7 +32,7 @@ public class Stonepaperandscissors
                 cc++;
                 System.out.println("s");
             }
-            else if(ch.equals("s")&&chc==1)
+            else if(ch.equals("s")&&chc==2)
             {
                 c++;
                 System.out.println("sc");
