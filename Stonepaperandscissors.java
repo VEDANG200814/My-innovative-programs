@@ -1,11 +1,21 @@
 import java.util.*;
+import java.io.*;
 public class Stonepaperandscissors 
 {
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the no. of points");
-        int p=sc.nextInt();
+        int p=0;
+        try{
+            p=sc.nextInt();
+        }
+        catch(Exception e){
+            System.out.println("Wrong Input!!");
+        }
+        finally{
+            System.exit(0);
+        }
         String ch="";int c=0,cc=0;
         System.out.println("Rules:\n**Enter\'s\'for stone");
         System.out.println("**Enter\'sc\'for scissors");
